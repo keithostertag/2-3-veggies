@@ -13,6 +13,8 @@ Text content for each image is provided with mouse over.
 
 Clicking on an image links to its full size page.
 
-This design does not provide an "about" page, and text on the page was kept to a minimum in order to emphasis the images.
+This design does not provide an "about" page, and text on the page was kept to a minimum in order to emphasize the images and the "space".
+
+Javascript was kept to a minimum as an exercise, and to make the site as usable as possible for users not having javascript turned on. Jquery is only used for loading a new random background image on refresh, and javascript to implement the collapsing header feature, neither necessary for content.
 
 I designed the favicon as a stylized lightning bolt. My domain "card16.com" refers to Card 16 of the Tarot - The Lightning Struck Tower.
