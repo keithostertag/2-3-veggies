@@ -87,6 +87,9 @@ footer  { /* position spaceship icon for contact info  */
 #spaceship {
       display: block;
 }
+#spaceship:hover  {
+  width: 50px;
+}
 
 #astronaut  {
     position: fixed;

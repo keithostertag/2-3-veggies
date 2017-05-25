@@ -22,4 +22,4 @@ var scrollTop = window.pageYOffset || (document.documentElement || document.body
 		  widthLost.style.width = "50%";
 			document.getElementsByTagName("header")[0].style.backgroundColor= "#000";
 	}
-}, false) /* Note: false gives bubbling for scroll according to console ev message, see http://stackoverflow.com/questions/4616694/what-is-event-bubbling-and-capturing#4616720 */
+}, false) 
