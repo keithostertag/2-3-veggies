@@ -22,4 +22,4 @@ var scrollTop = window.pageYOffset || (document.documentElement || document.body
 		  widthLost.style.width = "50%";
 			document.getElementsByTagName("header")[0].style.backgroundColor= "#000";
 	}
-}, false) 
+}, false)

@@ -4,18 +4,18 @@
     -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
         box-sizing: border-box;
-        }
+      }
 
 html{   /* in the case user has no javascript  */
     background-image: url("bg_images/bg25.jpg");
-}
+      }
 
   body, html {
     margin: 0;
     padding: 0;
     font-family:'Roboto', sans-serif;
     color: #e6e6e6;
-  }
+      }
 
 header  {
     position: fixed;
@@ -24,29 +24,35 @@ header  {
     width: 100%;
     background-color: #000;
     z-index: 999; /* keep header above all content*/
-  }
+      }
 
 .main   {
     margin: 20% 0 0 0; /* leave room for header image before starting content*/
-}
+      }
 
 #lostinspace  { /* This is the image for the header/banner area */
     width: 50%;
     display: block;
     margin: 5px auto;
-}
+      }
 
 .imageBox { /* container for both image and text */
     position: relative;
     display: inline-block;
-}
+      }
+
+.imageBox:hover .text-box { /* reveal text on hover */
+    color: #000;
+    background-color: rgba(230,230,230,.45);
+        }
+
 
  .photo { /* size images to column width */
    display: block;
    width: 100%;
- }
+        }
 
-.text-box {
+.text-box { /* position and hide descriptive text for each image*/
     position:absolute;
     height: 1.2rem;
     text-align: center;
@@ -58,38 +64,31 @@ header  {
     left: 0;
     background-color: transparent;
     color: transparent;
-}
-
-.text-box:hover  {
-    color: #000;
-    background-color: rgba(230,230,230,.45);
-}
+      }
 
 .col  {
     float: left;
     padding-left: 1em;
     padding-right: 1em;
     margin-bottom: 2em;
-
-    }
+        }
 
 .first, .second  { /* first and second _columns_! */
     width: 50%;
-
-  }
+        }
 
 footer  { /* position spaceship icon for contact info  */
       position: fixed;
       left: .5em;
       bottom: .5em;
-  }
+        }
 
-#spaceship {
+#spaceship {  /* reveals astronaut with contact info */
       display: block;
-}
-#spaceship:hover  {
+        }
+#spaceship:hover  { /* alerts user this is am interactive icon*/
   width: 50px;
-}
+        }
 
 #astronaut  {
     position: fixed;
@@ -97,11 +96,11 @@ footer  { /* position spaceship icon for contact info  */
     left: 30%;
     width: 33%;
     display: none;  /* Hide until spaceship icon clicked */
-}
+        }
 
-#astronaut:hover  {
+/*#astronaut:hover  { /* increase size for emphasis on hover*/
     width: 35%;
-}
+        }*/
 
 .clearfix::after  {
       content: "";
@@ -111,7 +110,7 @@ footer  { /* position spaceship icon for contact info  */
 
 /************   Media  selectors  ******************/
 
-/*  change design to columns when using small devices*/
+/*  change design to one column when using small devices*/
 @media only screen and (max-width: 660px)
       {
 
@@ -138,4 +137,9 @@ header  {
 #astronaut  {
       width: 80%;
          }
+
+#spaceship {  /* reveals astronaut with contact info */
+     width: 4rem; /*needs enlargement for touch */
+        }
+
 }      /* End of media query */
