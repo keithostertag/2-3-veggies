@@ -7,7 +7,7 @@
       }
 
 html{   /* in the case user has no javascript  */
-    background-image: url("bg_images/bg25.jpg");
+    background-image: url("../bg_images/bg25.jpg");
       }
 
   body, html {
@@ -94,19 +94,41 @@ footer  { /* position spaceship icon for contact info  */
     position: fixed;
     top: 25%;
     left: 30%;
-    width: 33%;
-    display: none;  /* Hide until spaceship icon clicked */
+    /*width: 33%;*/
+    visibility: hidden;
         }
 
-/*#astronaut:hover  { /* increase size for emphasis on hover*/
-    width: 35%;
-        }*/
+        /*map  {
+            position: fixed;
+            top: 25%;
+            left: 30%;
+            width: 33%;
+            display: none;
+                }*/
+
 
 .clearfix::after  {
       content: "";
       display: table;
       clear: both;
        }
+
+/*  this section for contact.html *********/
+
+form {
+  display: block;
+  margin: 30% auto;;
+  width: 70vw;
+  /*font-size: 2rem;*/
+  color: #000;
+  background-color: #f5f5f5;
+}
+
+input, textarea   {
+  width: 50vw;
+  display: block;
+
+}
 
 /************   Media  selectors  ******************/
 
@@ -115,7 +137,7 @@ footer  { /* position spaceship icon for contact info  */
       {
 
 header  {
-/* for smaller devces we want the extra real estate for the background and content*/
+/* for smaller devices we want the extra real estate for the background and content*/
       background-color: transparent;
         }
 
@@ -139,7 +161,7 @@ header  {
          }
 
 #spaceship {  /* reveals astronaut with contact info */
-     width: 4rem; /*needs enlargement for touch */
+     width: 6rem; /*needs enlargement for touch */
         }
 
 }      /* End of media query */

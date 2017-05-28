@@ -68,12 +68,16 @@
 
 </div> <!-- second col -->
 
-<!-- hide astronaut email contact image when clicked -->
-<img src="images/astronaut.png" id="astronaut" onclick='document.getElementById("astronaut").style.display = "none"'>
+<!--Present clickable image with email that leads to contact form   -->
+<map name="primary">
+  <area shape="rect" coords="61,241,219,273" href="contact.html">
+
+</map>
+<img usemap="#primary"  id="astronaut" src="images/astronaut2.png" onclick='document.getElementById("astronaut").style.visibility = "hidden"'>
 
 <footer>
   <!-- reveal astronaut when spaceship is clicked -->
-<img src="images/spaceship.png" id="spaceship" onclick='document.getElementById("astronaut").style.display = "block"'>
+<img src="images/spaceship.png" id="spaceship" onclick='document.getElementById("astronaut").style.visibility = "visible"'>
 </footer>
 
  </div> <!-- main div -->
