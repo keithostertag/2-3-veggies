@@ -1,6 +1,6 @@
 # Veggies in Space
 
-For your convenience and viewing pleasure this webpage is hosted at: card16.com/2-3/
+For your convenience and viewing pleasure this webpage is hosted at: card16.com/veggiesinspace
 
 This page was created to showcase a series of photographs of common garden vegetables lit and arranged to appear as though they are "floating in 
 space". The design presents the images in a space theme; the title refers to the old "Lost In Space" TV show- "Lost 
