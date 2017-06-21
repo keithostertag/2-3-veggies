@@ -1,0 +1,85 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+      box-sizing: border-box;
+    }
+
+body, html {
+  margin: 0;
+  padding: 0;
+  font-family:'Roboto', sans-serif;
+  color: #e6e6e6;
+    }
+
+html{
+    background-image: url("../bg_images/bg25.jpg");
+    background-size: cover;
+      }
+
+#about_main   {
+  display: block;
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+      }
+
+header  {
+  display: block;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000;
+    z-index: 999; /* keep header above all content*/
+      }
+
+#lostinspace  { /* This is the image for the header/banner area */
+    width: 50%;
+    display: block;
+    margin: 5px auto;
+      }
+
+#content  {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 60%;
+  border: none;
+  transform: translate(-50%, -50%);
+  color: #e6e6e6;
+}
+
+#home   {
+  position: fixed;
+  bottom: 4rem;
+  left: 4rem;
+  height: 15%;
+}
+
+
+
+/************   Media  selectors  ******************/
+
+/*  change design to one column when using small devices*/
+@media only screen and (max-width: 660px)
+      {
+
+header  {
+      background-color: transparent;
+        }
+
+#content  {
+  position: absolute;
+  top: 12%;
+  left: 25%;
+  color: #e6e6e6;
+  transform: none;
+}
+
+#home  {
+  position: fixed;
+  left: .5rem;
+  bottom: .5rem;
+}
+
+} /* end of media queries  */

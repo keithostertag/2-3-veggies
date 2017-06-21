@@ -1,7 +1,7 @@
 var images = ['bg_images/bg1.jpg', 'bg_images/bg2.jpg','bg_images/bg3.jpg','bg_images/bg4.jpg','bg_images/bg5.jpg','bg_images/bg7-2.jpg','bg_images/bg7-3.jpg', 'bg_images/bg7-4.jpg', 'bg_images/bg7-5.jpg', 'bg_images/bg7-7.jpg', 'bg_images/bg7-6.jpg', 'bg_images/bg7-8.jpg', 'bg_images/bg8-2.jpg', 'bg_images/bg8-3.jpg', 'bg_images/bg10.jpg', 'bg_images/bg13.jpg', 'bg_images/bg15.jpg'];
 
 /* present user a different random background image each visit */
-	$('html').css({'background-image': 'url(' + images[Math.floor(Math.random() * images.length)] + ')'});
+	$('html').css({'background': ' url(' + images[Math.floor(Math.random() * images.length)] + ')'});
 
 /* following code shrinks header on user scroll ************** */
 	window.addEventListener("scroll", function(){
