@@ -1,5 +1,4 @@
 
-
   *, *:before, *:after {
     -moz-box-sizing: border-box;
       -webkit-box-sizing: border-box;
@@ -23,7 +22,6 @@ header  {
     top: 0;
     left: 0;
     width: 100%;
-    /*height: 25%;*/
     background-color: #000;
     z-index: 999; /* keep header above all content*/
       }
@@ -34,7 +32,6 @@ header  {
 
 #lostinspace  { /* This is the image for the header/banner area */
     width: 50%;
-    /*height: 15%;*/
     display: block;
     margin: 5px auto;
       }
@@ -48,7 +45,6 @@ header  {
     color: #000;
     background-color: rgba(230,230,230,.45);
         }
-
 
  .photo { /* size images to column width */
    display: block;
@@ -89,6 +85,7 @@ footer  { /* position spaceship icon for contact info  */
 #spaceship {  /* reveals astronaut with contact info */
       display: block;
         }
+
 #spaceship:hover  { /* alerts user this is am interactive icon*/
   width: 50px;
         }
@@ -97,7 +94,6 @@ footer  { /* position spaceship icon for contact info  */
     position: fixed;
     top: 25%;
     left: 30%;
-    /*width: 33%;*/
     visibility: hidden;
         }
 
@@ -113,10 +109,10 @@ form {
   display: block;
   margin: 25% auto;;
   width: 70vw;
-  /*font-size: 2rem;*/
   color: #000;
   background-color: #f5f5f5;
 }
+/*  this section for contact.html *********/
 
 input, textarea   {
   width: 50vw;
