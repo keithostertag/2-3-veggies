@@ -86,7 +86,7 @@ footer  { /* position spaceship icon for contact info  */
       display: block;
         }
 
-#spaceship:hover  { /* alerts user this is am interactive icon*/
+#spaceship:hover  { /* alerts user this is an interactive icon*/
   width: 50px;
         }
 
@@ -112,14 +112,13 @@ form {
   color: #000;
   background-color: #f5f5f5;
 }
-/*  this section for contact.html *********/
 
 input, textarea   {
   width: 50vw;
   display: block;
 }
 
-/* ********  this section for about.html  */
+/*  this section for contact.html *********/
 
 
 
@@ -157,7 +156,7 @@ header  {
   color: #000;
         }
 
-.text-box { /* position and hide descriptive text for each image*/
+.text-box { /* position and reveal descriptive text for each image*/
     position:absolute;
     height: 1.2rem;
     text-align: center;
