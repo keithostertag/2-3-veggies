@@ -12,8 +12,6 @@ Clicking the fixed position spaceship icon reveals a floating spaceman holding a
 thwart spambots, the displayed email address is an image (rather than text). Clicking on the email sign displays the contact form. Since there 
 currently is no access to a back-end the form will return an error if submitted.
 
-An about page is displayed by clicking on the Lost in Space Veggies banner image.
-
 Text content for each image is provided with mouse over, except in mobile where the text is always displayed.
 
 Clicking on an image links to its full size page.
