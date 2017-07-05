@@ -9,6 +9,7 @@ bgLoad();
 
 /************************************************/
 /* the following code shrinks header depending on user scroll  */
+/************************************************/
 	window.addEventListener("scroll", function(){
 
 /* ***  prepare variable to hold width of lostinspace image */
@@ -24,7 +25,13 @@ bgLoad();
 		document.getElementsByTagName("header")[0].style.backgroundColor= "transparent";
   }
 	else{	/** return lostinspace to original size  **/
-		  widthLost.style.width = "50%";
+		  widthLost.style.width = "40%";
 			document.getElementsByTagName("header")[0].style.backgroundColor= "#000";
 	}
-}, false)
+}, false);
+
+/* since we have no backend, give user an alert when submitting form */
+$('#formSubmit').click(function(e){
+  e.preventDefault();
+  alert('Server unavailable, try again later!');
+});
