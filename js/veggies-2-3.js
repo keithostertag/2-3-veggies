@@ -31,7 +31,7 @@ bgLoad();
 }, false);
 
 /* since we have no backend, give user an alert when submitting form */
-$('#formSubmit').click(function(e){
-  e.preventDefault();
-  alert('Server unavailable, try again later!');
-});
+// $('#formSubmit').click(function(e){
+//   e.preventDefault();
+//   alert('Server unavailable, try again later!');
+// });
