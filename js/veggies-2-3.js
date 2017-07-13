@@ -1,3 +1,4 @@
+// array to hold background images
 var images = ['bg_images/bg1.jpg', 'bg_images/bg2.jpg','bg_images/bg3.jpg','bg_images/bg4.jpg','bg_images/bg5.jpg','bg_images/bg7-2.jpg','bg_images/bg7-3.jpg', 'bg_images/bg7-4.jpg', 'bg_images/bg7-5.jpg', 'bg_images/bg7-7.jpg', 'bg_images/bg7-6.jpg', 'bg_images/bg7-8.jpg', 'bg_images/bg8-2.jpg', 'bg_images/bg8-3.jpg', 'bg_images/bg10.jpg', 'bg_images/bg13.jpg', 'bg_images/bg15.jpg'];
 
 /* present user a different random background image each visit */
@@ -24,14 +25,8 @@ bgLoad();
   	widthLost.style.width = "25%"; /* reduce size of lostinspace*/
 		document.getElementsByTagName("header")[0].style.backgroundColor= "transparent";
   }
-	else{	/** return lostinspace to original size  **/
+	else{	/** return lostinspace to original size and background color **/
 		  widthLost.style.width = "40%";
 			document.getElementsByTagName("header")[0].style.backgroundColor= "#000";
 	}
 }, false);
-
-/* since we have no backend, give user an alert when submitting form */
-// $('#formSubmit').click(function(e){
-//   e.preventDefault();
-//   alert('Server unavailable, try again later!');
-// });
